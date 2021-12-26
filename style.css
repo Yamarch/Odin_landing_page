@@ -11,6 +11,7 @@ body {
 
 .header, .top_landing, .footer {
     background-color: #1F2937;
+    flex-wrap: wrap;
 }
 
 .call_to_action {
@@ -70,25 +71,77 @@ button {
     font-weight: bold;
   }
   
-  button.sign_up {
+  button.sign_up{
     background: #3882f3;
     border: 1px solid #3882f3;
     color: white;
   }
-  .random_header{}
+  .random_header{
+      padding: 50px;
+      font-size: 36px;
+      font-weight: bolder;
+      color: #1f2937;
+  }
   .cards{
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-bottom: 80px;
   }
   .pictures{
       display: flex;
       flex-direction: row;
       align-items: baseline;
       gap: 50px;
+      color: #1F2937;
   }
-
-  .image{
+  .quote_section{
       display: flex;
       flex-direction: column;
+      background-color: #e5e7eb;
+      padding: 80px 350px 80px 350px;
+      gap: 16px;
   }
+  .quote{
+      font-size: 36px;
+      color: #1F2937;
+      font-style: italic;
+  }
+  .author{
+    font-size: 24px;
+    color: #1F2937;
+    align-self: flex-end;
+  }
+.call_to_action{
+    background-color: #3882f3;    
+    margin: 60px 200px;
+    display: flex;
+    color: #e5e7eb;
+    padding: 10px 24px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.action_sign_up{
+    background: #3882f3;
+    border: 2px solid #e5e7eb;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+p{
+    margin: 0;
+}
+p.action_header{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 4px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+}
